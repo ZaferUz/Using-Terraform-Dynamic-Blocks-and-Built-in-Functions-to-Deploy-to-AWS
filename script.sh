@@ -4,5 +4,5 @@ sudo yum -y install git
 sudo systemctl start httpd && sudo systemctl enable httpd
 sudo cd /var/www/html 
 sudo git clone https://github.com/ZaferUz/my-webpage.git 
-sudo cd my-webpage 
+sudo cd my-webpage/ 
 sudo mv * ..
