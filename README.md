@@ -28,6 +28,9 @@ terraform apply --auto-approve
 ```
 ## Test Out the Deployment and Clean Up
 1. Once the code has executed successfully, view the outputs at the end of the completion message:
+```
+terraform apply --auto-approve
+```
 
 - The Time-Date output displays the timestamp when the code was executed.
 - The Web-Server-URL output displays the web address for the Apache webserver we created during deployment.
